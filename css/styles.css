@@ -1,0 +1,74 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:#FFF3CF;
+    margin: 0;
+}
+
+img {
+    width: 60%;
+}
+
+.main-title {
+    margin: 30px;
+    font-size: 60px;
+    color: #6ec0ab;
+    text-align: center;
+    border-width: 1px;
+    border-color: black;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+
+.dice {
+    background-color: rgba(135, 104, 64, 0.358);
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: rgba(131, 131, 200, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.btn {
+    background: #807967;
+    border-radius: 12px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+}
+
+.btn:hover {
+    background: #403821;
+}
+
+.dieface1,
+.dieface2 {
+  transition: transform 0.5s ease-in-out;
+}
+.dieface1.rotate,
+.dieface2.rotate {
+  transform: rotate(180deg);
+}
